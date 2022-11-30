@@ -1,5 +1,9 @@
 # Altklausuren Sammlung Angewandte Informatik
 
+## Structured List
+
+You can find a list of all Files of the Repository here: [Link](list.md)
+
 ## How to commit
 
 To avoid getting busted we recommend committing as Anonymous to this repository. You can achieve this by overwriting the following local variables:

@@ -1,17 +1,42 @@
+
 # Altklausuren Sammlung Angewandte Informatik
 
 ## Structured List
 
 You can find a list of all Files of the Repository here: [Link](list.md)
 
+---
 ## How to commit
 
-To avoid getting busted we recommend committing as Anonymous to this repository. You can achieve this by overwriting the following local variables:
 
-```console
-you@local:~$ git config user.name 'Anonymous'
-you@local:~$ git config user.email ''
+1. clone the repository
+```bash
+git clone https://github.com/EduTechVault/Altklausuren.git
 ```
+2. change into the repository
+```bash
+cd Altklausuren
+```
+
+3. set the local variables in order to commit as Anonymous
+```bash
+git config user.name 'Anonymous'
+git config user.email ''
+```
+
+4. disable commit signing to avoid getting busted
+```bash
+git config commit.gpgsign false
+```
+
+5. commit your changes
+```bash
+git add .
+git commit -m 'Added some Exams'
+git push
+```
+
+---
 
 ## What to commit
 
